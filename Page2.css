@@ -107,4 +107,8 @@ body {
     grid-template-columns: auto;
   }
 }
+#login a {
+  text-decoration: none;
+  color: white;
+}
 /* media queries for responsive design */

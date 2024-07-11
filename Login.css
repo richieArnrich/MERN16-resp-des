@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#Login-form {
+  width: 100%;
+  height: 100vh;
+  background-color: #cccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Login-form > form {
+  width: 400px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #efefef;
+  box-shadow: 0 0 0 0;
+  flex-direction: column;
+
+  font-family: "Times New Roman", Times, serif;
+}
+#Login-form > form > label {
+  font-size: 16px;
+  width: 80%;
+  height: 40px;
+}
+#Login-form > form > input {
+  width: 80%;
+  height: 40px;
+}
+#Login-form > form > button {
+  width: 80%;
+  height: 40px;
+  background-color: green;
+  counter-reset: #efefef;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: #efefef;
+}
+::placeholder {
+  color: black;
+  padding-left: 10px;
+}
