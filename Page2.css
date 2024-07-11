@@ -68,6 +68,7 @@ body {
 }
 .travel-section > #travel-item {
   width: auto;
+  grid-template-columns: auto;
 }
 #img-cont > img {
   height: 12.5rem;
